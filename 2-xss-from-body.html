@@ -1,0 +1,15 @@
+<html>
+
+<head>
+  <!-- apply CSP to prevent unwanted loading of remote script -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+</head>
+
+<body>
+  <div>Some text from db with an injected malicious string:
+    <script src="https://test.ungear.ru/malicious.js"></script>
+  </div>
+  <div>Prevented by browser according to CSP command</div>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "security-samples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "static"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ungear/security-samples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ungear/security-samples/issues"
+  },
+  "homepage": "https://github.com/ungear/security-samples#readme",
+  "dependencies": {
+    "node-static": "^0.7.11"
+  }
+}

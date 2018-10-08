@@ -1,0 +1,24 @@
+<html>
+
+<head></head>
+
+<body>
+  <input type="text" id="source" />
+  <button id="submit">Insert</button>
+  <div id="target"></div>
+  <!-- Paste it in the input to be hacked:
+    <img src="false-image" onerror="alert('hacked')"> 
+  -->
+
+  <script>
+    (function () {
+      document.getElementById("submit").addEventListener("click", onSubmitClick)
+
+      function onSubmitClick() {
+        document.getElementById("target").innerHTML = document.getElementById("source").value
+      }
+    })()
+  </script>
+</body>
+
+</html>

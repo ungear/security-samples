@@ -1,0 +1,22 @@
+<html>
+
+<head></head>
+
+<body>
+  you will be hacked in 2 seconds
+  <div id="t"></div>
+  <script>
+    (function () {
+      setTimeout(_ => {
+        let s = document.createElement("script")
+        s.innerHTML = "alert('hacked')"
+
+        document.getElementById("t").appendChild(s)
+      }, 2000)
+
+
+    })()
+  </script>
+</body>
+
+</html>
